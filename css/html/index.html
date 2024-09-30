@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="../css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <title>Foodbag</title>
+    <script src="https://kit.fontawesome.com/515d677ba3.js" crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <div class="container">
+      <nav class="navbar">
+        <div class="logo size-20">
+          <a href="index.html">Food<span class="span">Bag</span></a>
+        </div>
+        <div class="menu">
+          <li><a href="#">Cart</a></li>
+          <li><a href="#">Login</a></li>
+          <li class="sign-up"><a href="#">Sign up</a></li>
+        </div>
+      </nav>
+  
+      <header class="header">
+        <h2 class="header-name size-40">FoodBag</h2>
+        <p class="size-20">Anything food, we have you covered.</p>
+      </header>
+      <section>
+        <div class="section-one">
+          <p class="second-size-20">Where are you?</p>
+          <select class="location" name="location" id="location" onchange="changeFunc();">
+            <option disabled selected value="address">Enter your delivery address</option>
+            <option value="Lagos-island">Lagos Island</option>
+            <option value="Lagos-mainland">Lagos Mainland</option>
+            <option value="Amuwo-odofin">Amuwo Odofin</option>
+            <option value="Alimosho">Alimosho</option>
+
+          </select>
+          <span class="arrow-down"><i class="fas fa-angle-down"></i></span>
+        </div>
+      </section>
+      <section class="section-two">
+        <p class="size-20 font-bold">Pick an interest</p>
+        <div class="section-two-box" >
+          <a name="link">
+            <div>
+              <img id="image" name="image" src="../assets/fast-food_disabled.svg" alt="#">
+              <h3 id="interesth0" name = "interesth3">Fast food</h3>
+              <p id="interest0" name="interestp">All sorrows are less with bread.</p>
+            </div>
+          </a>
+          <a name="link">
+            <div>
+              <img id="image1" src="../assets/Vegetables _ Drinks_disabled.svg" alt="#">
+              <h3 id="interesth1" name = "interesth3">Vegtables & Fruits</h3>
+              <p id="interest1" name="interestp">May not want it, but good for you.</p>
+            </div>
+          </a>
+          <a name="link">
+            <div>
+              <img id="image2" src="../assets/Drinks _ Cocktails_disabled.svg" alt="#">
+              <h3 id="interesth2" name = "interesth3">Drinks & Cocktails</h3>
+              <p id="interest2" name="interestp">I feel sad for those who don't drink.</p>
+            </div>
+          </a>
+          <a name="link">
+            <div>
+              <img id="image3" src="../assets/resturant_disabled.svg" alt="#">
+              <h3 id="interesth3" name = "interesth3">Restaurants</h3>
+              <p id="interest3" name="interestp">All sorrows are less with bread.</p>
+            </div>
+          </a>
+        </div>
+      </section>
+      <hr>
+      <section class="section-three">
+        <p class="size-30 center-align font-bold">How we serve you</p>
+        <div class="section-three-div" id="section-three-div">
+          <div>
+            <img src="../assets/Illustration_1.svg" alt="#">
+            <h3>Tell us where you are</h3>
+            <p class="size-20">Select the location you want us to deliver</p>
+          </div>
+          <div>
+            <img src="../assets/illustration_2.svg" alt="#">
+            <h3>Tell us what you want</h3>
+            <p class="size-20">Browse the type of food that interest you.</p>
+          </div>
+          <div>
+            <img src="../assets/illustration_3.svg" alt="#">
+            <h3>We'll come running</h3>
+            <p class="size-20">Your order will be delivered to you in no time.</p>
+          </div>
+        </div>
+      </section>
+      <hr>
+      <footer>
+        <div class="footer-div-one">
+          <p class="color-grey center-align">Contact us</p>
+          <div class="footer-div-two">
+            <li><a href="#"><i class="fab fa-twitter" style="color: #ad4c4c;"></i></a></li>
+            <li><a href="#"><i class="fab fa-youtube" style="color: #ad4c4c;"></i></a></li>
+            <li><a href="#"><i class="fab fa-facebook-f" style="color: #ad4c4c;"></i></a></li>
+            <li><a href="#"><i class="fa-solid fa-circle"></i></i></a></li>
+          </div>
+        </div>
+        <div class="footer-div">
+          <div class="color-grey footer-div-two-one footer-box">Terms & Conditions . Privacy Policy</div>
+          <div class="color-grey footer-div-two-one footer-box">&#169;Copyright 2021 Food Bag is a registered trademark</div>
+        </div>
+      </footer>
+    </div>
+    <script src="../Dom/main.js"></script>
+  </body>
+</html>
